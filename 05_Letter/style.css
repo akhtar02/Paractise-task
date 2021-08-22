@@ -1,0 +1,349 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    /* color: #3ab4e5; */
+    color: #595b61;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.letter-head{
+    margin-top: 50px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; 
+    align-items: center;
+}
+
+.logo-img{
+    height: 110px;
+}
+.ref-number{
+    text-align: right;
+    font-size: 20px;
+    align-items: center !important;
+}
+
+.sub-heading{
+    color: #595b61;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.description{
+    color: #3ab4e5;
+}
+
+
+.address-info{
+    display: flex;
+    margin-right: 30px ;
+    margin-top: 20px;
+}
+ .address{
+    width: 450px;
+   
+}
+.address-info p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.mail-address i{
+    color: #3ab4e5 !important;
+    margin-right: 15px;
+    
+}
+
+
+
+.text{
+    font-family: sans-serif !important;
+}
+
+hr.info-break{
+        background-color: #29AAE1;
+        border: 5px solid #29AAE1;
+        
+        
+}
+
+.information p{
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+}
+
+.gender .form-check{
+    font-size: 22px;
+}
+.detial{
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+}
+
+.form-check{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-check-input{
+    color: #3ab4e5 !important;
+    outline: none;
+    /* background: red !important; */
+    border: 2px solid #3ab4e5 !important;
+
+ 
+}
+
+hr.break-line{
+
+background-color: #3ab4e5;
+border: 1px solid #3ab4e5;
+}
+
+/* ########################### */
+
+/* .signature {
+    display: flex;
+    justify-content: space-between;
+} */
+.signature p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.sign-break{
+    border: 2px solid #3ab4e5;
+    width: 140px;
+    margin-left: 15px ;
+    
+}
+
+.tick-img{
+    height: 40px;
+    width: 40px;
+    margin-top: 8px;
+}
+.footer {
+    background-color: #3ab4e5;
+
+}
+
+footer p{
+    text-align:center;
+    padding: 50px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 90px;
+    
+   
+}
+
+@media screen and (max-width: 992px) {
+    .signature-img{
+        width: 320px ;
+        margin: auto;
+    }
+
+    .signature p{
+       font-size: 12px;
+    }
+
+    .footer p{
+    padding: 10px 10px;
+    margin: 0px 50px;
+    }
+
+    .logo-img{
+        height: 90px;
+    }
+    .form-check{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .address{
+        width: 380px;
+       
+    }
+    .address-info{
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .sub-heading , .description, .address-info {
+        margin-left: 10px;
+    }
+    .info-break{
+        margin: 10px 0px;
+    }
+    .information p{
+        margin-left: 10px;
+    }
+    .form{
+        margin-left: 20px;
+    }
+    .singuature p{
+    font-size: 14px;
+    }
+    .gender-title{
+        margin-left: -20px;
+    }
+   
+}
+
+@media screen and (max-width:  768px) {
+    .form-check{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .signature-img{
+        width: 320px ;
+        /* margin: 10px auto ; */
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .signature p{
+       font-size: 14px;
+       margin-top: 10px;
+       margin-left: 10px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer p{
+    padding: 10px 10px;
+    margin: 0px 0px;
+    }
+
+    .logo-img{
+        height: 90px;
+    }
+    .gender{
+        margin-left: 0px;
+    }
+
+    .address-info{
+        display: flex;
+        flex-direction: column;
+  
+    }
+
+
+    .address{
+        width: 380px;
+       
+    }
+    .logo{
+        display: flex;
+       flex-direction: column;
+        margin-top: 50px; 
+        align-items: center;
+    }
+    .logo h3{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sub-heading , .description, .address-info {
+        margin-left: 10px;
+    }
+    .info-break{
+        margin: 10px 0px;
+    }
+    .information p{
+        margin-left: 10px;
+    }
+    .form{
+        margin-left: 20px;
+    }
+    .singuature p{
+    font-size: 14px;
+    }
+    /* .gender-title{
+        margin-left: 20px;
+    } */
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    .form-check{
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .signature-img{
+        width: 320px ;
+        margin-left: 40px;
+        /* margin: auto; */
+    }
+
+    .signature p{
+       font-size: 14px;
+       margin-left: 10px;
+      
+    }
+.footer{
+    width: 100%;
+}
+    .footer p{
+    padding: 10px 0px;
+    font-size: 12px;
+    
+    }
+
+    .logo-img{
+        height: 90px;
+    }
+    .gender{
+        margin-left: 0px;
+       
+    }
+    .address-info{
+        display: flex;
+        flex-direction: column;
+  
+    }
+
+    .address{
+        width: 280px;
+       
+    }
+.sub-heading , .description, .address-info {
+    margin-left: 10px;
+}
+.info-break{
+    margin: 10px 0px;
+}
+.information p{
+    margin-left: 10px;
+}
+.form{
+    margin-left: 20px;
+}
+.singuature p{
+font-size: 14px;
+}
+.gender-title{
+    margin-left: -20px;
+}
+
+  }
+
+  @media screen and (max-width: 370px) {
+    .signature-img{
+        width: 270px ;
+        margin-left: 40px;
+        /* margin: auto; */
+    }
+  }
